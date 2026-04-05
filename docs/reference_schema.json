@@ -1,0 +1,198 @@
+{
+  "vendors": [
+    {
+      "title": "Vivanta New Delhi, Dwarka",
+      "viewsCount": 4,
+      "photo": "https://lh3.googleusercontent.com/places/ANXAkqELYgT3heW_taEVP7Ezb-iZBRtFZC6AA9XiLrcgxET3IfWN8yB3bXukFYnhhG7qAdKQsWONlG_VZ60mCJy2U-kX5yAPGBUQxC8=s1600-w400",
+      "category": "Travel & Accommodation",
+      "place_id": "ChIJd8BlQ2BZwokRAFUEcm_qrcA",
+      "vendorName": "Vivanta New Delhi Dwarka",
+      "city": "New Delhi",
+      "location": "Sector 21, Dwarka, New Delhi, India",
+      "latitude": 28.5562,
+      "longitude": 77.0856,
+      "phoneNumber": "+911166000000",
+      "rating": 4.4,
+      "numberOfRatings": 1200,
+      "subcategory": "Pet-friendly Hotels, Resorts & Stays",
+      "tags": [
+        "Travel & Accommodation",
+        "Pet-friendly Hotels, Resorts & Stays"
+      ],
+      "views": 4,
+      "amenities": ["Free WiFi", "Pet Friendly", "Swimming Pool", "Parking"],
+      "priceRange": "$$$",
+      "isVerified": true,
+      "createdAt": "2026-04-04T10:00:00.000Z",
+      "updatedAt": "2026-04-04T10:00:00.000Z",
+      "reviews": [
+        {
+          "author_name": "John Doe",
+          "author_url": "https://maps.google.com",
+          "rating": 5,
+          "text": "Amazing stay, very pet friendly!",
+          "time": 1710000000,
+          "relative_time_description": "2 months ago"
+        }
+      ]
+    },
+    {
+      "title": "ibis New Delhi Aerocity",
+      "viewsCount": 3,
+      "photo": "https://lh3.googleusercontent.com/places/ANXAkqEa6HKzM2TzqQBsQ0Yh8iHuhwetcfAfhYz7c7TXpa4nc97yugOcUffgM-C6iN2iFgk427m0yajqPNbwDc_Byeh4H-AjHZ2hQdk=s1600-w400",
+      "category": "Travel & Accommodation",
+      "place_id": "ChIJn8u1Zz9ZwokRk8d8jQzF0m8",
+      "vendorName": "ibis Aerocity",
+      "city": "New Delhi",
+      "location": "Aerocity, New Delhi, India",
+      "latitude": 28.5480,
+      "longitude": 77.1227,
+      "phoneNumber": "+911140000000",
+      "rating": 4.1,
+      "numberOfRatings": 980,
+      "subcategory": "Pet-friendly Hotels, Resorts & Stays",
+      "tags": [
+        "Travel & Accommodation",
+        "Budget Hotels"
+      ],
+      "views": 3,
+      "amenities": ["Free WiFi", "Airport Shuttle", "Restaurant"],
+      "priceRange": "$$",
+      "isVerified": true,
+      "createdAt": "2026-04-04T10:00:00.000Z",
+      "updatedAt": "2026-04-04T10:00:00.000Z",
+      "reviews": []
+    }
+  ],
+
+  "categories": [
+    {
+      "title": "Travel & Accommodation",
+      "viewsCount": 79,
+      "description": "Places where pets and owners can stay comfortably",
+      "icon": "hotel",
+      "isActive": true,
+      "createdAt": "2026-04-01T00:00:00.000Z"
+    },
+    {
+      "title": "Food & Accessories",
+      "viewsCount": 25,
+      "description": "Food, treats, and pet supplies",
+      "icon": "shopping_cart",
+      "isActive": true,
+      "createdAt": "2026-04-01T00:00:00.000Z"
+    },
+    {
+      "title": "Recreation & Training",
+      "viewsCount": 12,
+      "description": "Fun activities and training services",
+      "icon": "sports",
+      "isActive": true,
+      "createdAt": "2026-04-01T00:00:00.000Z"
+    },
+    {
+      "title": "Health & Grooming",
+      "viewsCount": 29,
+      "description": "Vet clinics and grooming services",
+      "icon": "health_and_safety",
+      "isActive": true,
+      "createdAt": "2026-04-01T00:00:00.000Z"
+    },
+    {
+      "title": "Animal rescue",
+      "viewsCount": 5,
+      "description": "Shelters and rescue organizations",
+      "icon": "pets",
+      "isActive": true,
+      "createdAt": "2026-04-01T00:00:00.000Z"
+    }
+  ],
+
+  "subcategories": [
+    {
+      "title": "Pet-friendly Hotels, Resorts & Stays",
+      "viewsCount": 38,
+      "category": "Travel & Accommodation",
+      "description": "Hotels that allow pets",
+      "isPopular": true
+    },
+    {
+      "title": "Pet-friendly Cafes & Restaurants",
+      "viewsCount": 32,
+      "category": "Food & Accessories",
+      "description": "Places where pets are welcome",
+      "isPopular": true
+    },
+    {
+      "title": "Pet Cakes & Treats",
+      "viewsCount": 5,
+      "category": "Food & Accessories",
+      "description": "Special treats for pets",
+      "isPopular": false
+    },
+    {
+      "title": "Dog Swimming pools",
+      "viewsCount": 8,
+      "category": "Recreation & Training",
+      "description": "Swimming facilities for dogs",
+      "isPopular": false
+    },
+    {
+      "title": "Pet Boardings",
+      "viewsCount": 9,
+      "category": "Travel & Accommodation",
+      "description": "Places to leave pets temporarily",
+      "isPopular": false
+    },
+    {
+      "title": "Pet Shops",
+      "viewsCount": 20,
+      "category": "Food & Accessories",
+      "description": "Stores for pet supplies",
+      "isPopular": true
+    },
+    {
+      "title": "Pet Pharmacy",
+      "viewsCount": 1,
+      "category": "Health & Grooming",
+      "description": "Medicines for pets",
+      "isPopular": false
+    },
+    {
+      "title": "Pet Grooming & Spa",
+      "viewsCount": 17,
+      "category": "Health & Grooming",
+      "description": "Cleaning and grooming services",
+      "isPopular": true
+    },
+    {
+      "title": "Vets, Pet Clinics & Hospitals",
+      "viewsCount": 11,
+      "category": "Health & Grooming",
+      "description": "Medical services for pets",
+      "isPopular": true
+    },
+    {
+      "title": "Rescue Shelters & NGOs",
+      "viewsCount": 5,
+      "category": "Animal rescue",
+      "description": "Organizations helping animals",
+      "isPopular": false
+    },
+    {
+      "title": "Dog Parks",
+      "viewsCount": 4,
+      "category": "Recreation & Training",
+      "description": "Outdoor play areas",
+      "isPopular": false
+    }
+  ],
+
+  "metadata": {
+    "totalVendors": 5,
+    "totalCategories": 5,
+    "totalSubcategories": 11,
+    "lastUpdated": "2026-04-04T10:00:00.000Z",
+    "version": 2
+  }
+}

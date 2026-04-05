@@ -1,0 +1,27 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "task-1 backend",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node src/server.js",
+    "test": "echo \"No backend tests configured\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siddhantkore/Task1.git"
+  },
+  "author": "Siddhant",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/siddhantkore/Task1/issues"
+  },
+  "homepage": "https://github.com/siddhantkore/Task1#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "mongoose": "^8.19.3"
+  }
+}
