@@ -35,6 +35,31 @@
   width: 100%;
 }
 
+.verification-chart-shell {
+  display: grid;
+  gap: 12px;
+}
+
+.verification-total {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding-top: 12px;
+  border-top: 1px solid #ececec;
+}
+
+.verification-total span {
+  color: #6a6a6a;
+  font-size: 0.84rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.verification-total strong {
+  font-size: 1.35rem;
+  color: #1f1f1f;
+}
+
 .bar-icon-wrap {
   display: flex;
   align-items: center;
@@ -186,6 +211,11 @@
 .chart-tooltip span {
   font-size: 0.84rem;
   color: #555555;
+}
+
+.recharts-legend-wrapper {
+  font-size: 0.85rem;
+  color: #4f4f4f;
 }
 
 .services-section {

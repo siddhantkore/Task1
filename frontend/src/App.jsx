@@ -2,7 +2,12 @@ import { useEffect, useState } from 'react'
 import CategoryCard from './components/CategoryCard'
 import CategoryChart from './components/CategoryChart'
 import CategoryIcon from './components/CategoryIcon'
-import { getCategoryInsights, getCategoryVendors } from './services/api'
+import VendorVerificationChart from './components/VendorVerificationChart'
+import {
+  getCategoryInsights,
+  getCategoryVendors,
+  getVendorVerificationCounts,
+} from './services/api'
 import './App.css'
 
 function App() {
@@ -10,8 +15,10 @@ function App() {
   const [summary, setSummary] = useState(null)
   const [selectedSlug, setSelectedSlug] = useState('')
   const [selectedVendors, setSelectedVendors] = useState([])
+  const [vendorVerification, setVendorVerification] = useState(null)
   const [loading, setLoading] = useState(true)
   const [vendorsLoading, setVendorsLoading] = useState(false)
+  const [verificationLoading, setVerificationLoading] = useState(false)
   const [error, setError] = useState('')
 
   useEffect(() => {
@@ -55,6 +62,26 @@ function App() {
     }
 
     loadVendors()
+  }, [selectedSlug])
+
+  useEffect(() => {
+    if (!selectedSlug) {
+      return
+    }
+
+    const loadVendorVerification = async () => {
+      try {
+        setVerificationLoading(true)
+        const response = await getVendorVerificationCounts(selectedSlug)
+        setVendorVerification(response)
+      } catch (requestError) {
+        setError(requestError.message)
+      } finally {
+        setVerificationLoading(false)
+      }
+    }
+
+    loadVendorVerification()
   }, [selectedSlug])
 
   const selectedCategory = insights.find((item) => item.slug === selectedSlug)
@@ -109,6 +136,20 @@ function App() {
                       </dl>
                     </>
                   ) : null}
+                </div>
+
+                <div className="detail-section">
+                  <p className="section-label">Verification Split</p>
+                  {verificationLoading ? (
+                    <div className="status-inline">Loading vendor split...</div>
+                  ) : vendorVerification ? (
+                    <VendorVerificationChart
+                      data={vendorVerification.items}
+                      totalVendors={vendorVerification.summary.totalVendors}
+                    />
+                  ) : (
+                    <div className="status-inline">Verification data unavailable.</div>
+                  )}
                 </div>
 
                 <div className="detail-section">

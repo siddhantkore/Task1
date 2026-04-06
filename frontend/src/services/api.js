@@ -27,3 +27,7 @@ export function getCategoryInsights() {
 export function getCategoryVendors(slug) {
   return request(`/categories/${slug}/vendors`)
 }
+
+export function getVendorVerificationCounts(slug) {
+  return request(`/vendors/verified-count/${slug}`)
+}
